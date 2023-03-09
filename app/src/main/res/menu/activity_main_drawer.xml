@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/menu_title"
+        android:titleCondensed="@string/menu_title_condensed"
+        android:title="@string/menu_title">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sync"
+                    android:icon="@drawable/ic_sync"
+                    android:title="@string/sync" />
+                <item
+                    android:id="@+id/start_activity"
+                    android:icon="@drawable/ic_play"
+                    android:title="@string/start_activity" />
+                <item
+                    android:id="@+id/send"
+                    android:icon="@drawable/ic_send"
+                    android:title="@string/send" />
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="@string/logout" />
+
+            </group>
+        </menu>
+    </item>
+</menu>

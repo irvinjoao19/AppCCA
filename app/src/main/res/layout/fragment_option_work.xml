@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.work.OptionWorkFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tv_activity"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/content_inset"
+        android:layout_marginTop="@dimen/content_inset"
+        android:hint="@string/hint_selected_activity"
+        app:boxBackgroundColor="@color/cca_blue_gray_50"
+        app:endIconMode="@null"
+        app:errorIconDrawable="@null"
+        app:hintTextColor="@color/cca_blue_gray_600"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <AutoCompleteTextView
+            android:id="@+id/et_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:inputType="text"
+            android:textColor="@color/cca_blue_gray_800"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/dynamic_body_text_size" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tv_subActivity"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/content_inset"
+        android:layout_marginTop="@dimen/content_inset"
+        android:hint="@string/hint_selected_sub_activity"
+        app:boxBackgroundColor="@color/cca_blue_gray_50"
+        app:endIconMode="@null"
+        app:errorIconDrawable="@null"
+        app:hintTextColor="@color/cca_blue_gray_600"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_activity">
+
+        <AutoCompleteTextView
+            android:id="@+id/et_subActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:inputType="text"
+            android:textColor="@color/cca_blue_gray_800"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/dynamic_body_text_size" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/btn_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/content_inset"
+        android:backgroundTint="@color/colorPrimary"
+        android:elevation="@dimen/content_inset"
+        android:text="@string/title_continue"
+        android:textAllCaps="false"
+        android:textSize="@dimen/dynamic_body_text_size"
+        app:icon="@drawable/ic_check"
+        app:iconGravity="textStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_subActivity" />
+</androidx.constraintlayout.widget.ConstraintLayout>

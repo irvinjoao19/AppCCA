@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/workFragment">
+
+    <fragment
+        android:id="@+id/workFragment"
+        android:name="com.dsige.cca.ui.work.WorkFragment"
+        android:label="@string/start_activity"
+        tools:layout="@layout/fragment_work">
+        <action
+            android:id="@+id/action_workFragment_to_optionWorkFragment"
+            app:destination="@id/optionWorkFragment" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/optionWorkFragment"
+        android:name="com.dsige.cca.ui.work.OptionWorkFragment"
+        tools:layout="@layout/fragment_option_work">
+        <action
+            android:id="@+id/action_optionWorkFragment_to_formVideoFragment"
+            app:destination="@id/formVideoFragment" />
+        <action
+            android:id="@+id/action_optionWorkFragment_to_formPhotoFragment"
+            app:destination="@id/formPhotoFragment" />
+    </dialog>
+
+    <fragment
+        android:id="@+id/formVideoFragment"
+        android:name="com.dsige.cca.ui.form.FormVideoFragment"
+        android:label="@string/form_activity"
+        tools:layout="@layout/fragment_form_video" />
+
+    <fragment
+        android:id="@+id/formPhotoFragment"
+        android:name="com.dsige.cca.ui.form.FormPhotoFragment"
+        android:label="@string/form_activity"
+        tools:layout="@layout/fragment_form_photo" />
+</navigation>

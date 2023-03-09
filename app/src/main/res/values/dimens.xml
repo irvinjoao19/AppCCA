@@ -1,0 +1,79 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="list_item_height">48dp</dimen>
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="list_item_left_margin">72dp</dimen>
+
+    <!--region Font size Default dynamic -->
+    <dimen name="dynamic_tiny_text_size">10sp</dimen>
+    <dimen name="dynamic_mini_text_size">12sp</dimen>
+    <dimen name="dynamic_body_text_size">14sp</dimen>
+    <dimen name="dynamic_content_text_size">16sp</dimen>
+    <dimen name="dynamic_title_text_size">18sp</dimen>
+    <dimen name="dynamic_space_title_and_text_size">20sp</dimen>
+    <dimen name="dynamic_header_text_size">22sp</dimen>
+    <dimen name="dynamic_amount_text_size">24sp</dimen>
+    <dimen name="dynamic_display_text_size">26sp</dimen>
+    <dimen name="dynamic_counter_text_size">32sp</dimen>
+    <dimen name="dynamic_big_text_size">36sp</dimen>
+    <dimen name="dynamic_size_button_dialog">52sp</dimen>
+    <!--endregion-->
+
+    <dimen name="standard_material_padding">16dp</dimen>
+    <dimen name="standard_text_size">16sp</dimen>
+
+    <dimen name="table_view_cell_height">28dp</dimen>
+    <dimen name="table_view_row_header_width">28dp</dimen>
+    <dimen name="table_view_default_text_size">11sp</dimen>
+
+    <!-- Font size Default -->
+    <dimen name="big_text_size">36sp</dimen>
+    <dimen name="counter_text_size">32sp</dimen>
+    <dimen name="display_text_size">26sp</dimen>
+    <dimen name="header_text_size">22sp</dimen>
+    <dimen name="title_text_size">18sp</dimen>
+    <dimen name="title_text_size_more">20sp</dimen>
+    <dimen name="content_text_size">16sp</dimen>
+    <dimen name="body_text_size">14sp</dimen>
+    <dimen name="mini_text_size">12sp</dimen>
+    <dimen name="tiny_text_size">10sp</dimen>
+
+    <!-- Dimens Default -->
+    <dimen name="content_header_dialog">149dp</dimen>
+    <dimen name="content_button_width">120dp</dimen>
+    <dimen name="content_button_height">@dimen/content_inset_more_large</dimen>
+    <dimen name="content_inset_fifty_two">52dp</dimen>
+    <dimen name="content_inset_fifty">50dp</dimen>
+    <dimen name="content_imageview_circular">48dp</dimen>
+
+    <dimen name="content_inset_more_large_extra">40dp</dimen>
+    <dimen name="content_inset_start_end">36dp</dimen>
+    <dimen name="content_inset_more_large">32dp</dimen>
+    <dimen name="content_inset_more">24dp</dimen>
+    <dimen name="content_inset_twenty_eight">28dp</dimen>
+    <dimen name="content_inset_twenty_six">26dp</dimen>
+    <dimen name="content_inset_twenty_nine">29dp</dimen>
+    <dimen name="content_inset_twenty_two">22dp</dimen>
+    <dimen name="content_inset_twenty">20dp</dimen>
+    <dimen name="content_inset_thirty">30dp</dimen>
+    <dimen name="content_inset_regular">18dp</dimen>
+    <dimen name="content_inset">16dp</dimen>
+    <dimen name="content_inset_less_card">14dp</dimen>
+    <dimen name="content_inset_less">12dp</dimen>
+    <dimen name="content_inset_ten">10dp</dimen>
+    <dimen name="content_inset_half">8dp</dimen>
+    <dimen name="content_inset_half_card">6dp</dimen>
+    <dimen name="content_inset_five">5dp</dimen>
+    <dimen name="content_inset_quarter">4dp</dimen>
+    <dimen name="content_inset_three">3dp</dimen>
+    <dimen name="content_inset_two">2dp</dimen>
+</resources>
